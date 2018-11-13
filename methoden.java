@@ -7,7 +7,8 @@ public class methoden {
 
 		Scanner scanner = new Scanner(System.in);
 		
-		String name = "Isa"	
+		String name = "Isa"
+		String name ="sieht scheisse aus"
 
 		System.out.println("Willkommen in meiner Umrechnungsanwendung.\n");
 		System.out.println("Leider ist die Anwendung noch im Aufbau, deswegen geben Sie bitte per Zahl ihre gewünschte Umrechnungsart an. \n");
