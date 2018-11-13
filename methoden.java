@@ -10,8 +10,8 @@ public class methoden {
 			
 
 		System.out.println("Willkommen in meiner Umrechnungsanwendung.\n");
-		System.out.println("Leider ist die Anwendung noch im Aufbau, deswegen geben Sie bitte per Zahl ihre gewünschte Umrechnungsart an. \n");
-		System.out.println("Folgend sehen Sie die Zahlen für die einzelnen Umrechnungen");
+		System.out.println("Leider ist die Anwendung noch im Aufbau, deswegen geben Sie bitte per Zahl ihre gewÃ¼nschte Umrechnungsart an. \n");
+		System.out.println("Folgend sehen Sie die Zahlen fÃ¼r die einzelnen Umrechnungen");
 		System.out.println("Mit der 0 rechnen Sie mit Sekunden \nMit der 1 rechnen Sie mit Minuten \nMit der 2 rechnen Sie mit Stunden \nMit der 3 rechen Sie mit Tagen");
 		System.out.println("Geben Sie nun bitte eine Nummer ein:");
 		
@@ -21,7 +21,7 @@ public class methoden {
 		switch(auswahl)													
 		{
 		case 0: 
-			System.out.println("Sie haben sich für Sekunden entschieden. \n Möchten Sie Sekunden umrechnen, oder Minuten/Stunden/Tage in Sekunden rechnen? \n Geben Sei dafür bite die 0 für ersteres und 1 für zweiteres ein:");
+			System.out.println("Sie haben sich fÃ¼r Sekunden entschieden. \n MÃ¶chten Sie Sekunden umrechnen, oder Minuten/Stunden/Tage in Sekunden rechnen? \n Geben Sei dafÃ¼r bite die 0 fÃ¼r ersteres und 1 fÃ¼r zweiteres ein:");
 			int auswahlsekunden = scanner.nextInt();
 			switch(auswahlsekunden) {
 			case 0:
@@ -44,7 +44,7 @@ public class methoden {
 			}
 			break;
 		case 1:
-			System.out.println("Sie haben sich für Minuten entschieden. \n Möchten Sie Minuten umrechnen, oder Sekunden/Stunden/Tage in Minuten rechnen? \n Geben Sei dafür biite die 0 für ersteres und 1 für zweiteres ein:");
+			System.out.println("Sie haben sich fÃ¼r Minuten entschieden. \n MÃ¶chten Sie Minuten umrechnen, oder Sekunden/Stunden/Tage in Minuten rechnen? \n Geben Sei dafÃ¼r biite die 0 fÃ¼r ersteres und 1 fÃ¼r zweiteres ein:");
 			int auswahlminuten = scanner.nextInt();
 			switch(auswahlminuten) {
 			case 0:
@@ -66,7 +66,7 @@ public class methoden {
 			}
 			break;
 		case 2:
-			System.out.println("Sie haben sich für Stunden entschieden. \n Möchten Sie Stunden umrechnen, oder Sekunden/Minuten/Tage in Stunden rechnen? \n Geben Sei dafür biite die 0 für ersteres und 1 für zweiteres ein:");
+			System.out.println("Sie haben sich fÃ¼r Stunden entschieden. \n MÃ¶chten Sie Stunden umrechnen, oder Sekunden/Minuten/Tage in Stunden rechnen? \n Geben Sei dafÃ¼r biite die 0 fÃ¼r ersteres und 1 fÃ¼r zweiteres ein:");
 			int auswahlstunden = scanner.nextInt();
 			switch(auswahlstunden) {
 			case 0:
@@ -88,7 +88,7 @@ public class methoden {
 			}
 			break;
 		case 3:
-			System.out.println("Sie haben sich für Tage entschieden. \n Möchten Sie Tage umrechnen, oder Sekunden/Minuten/Stunden in Tage rechnen? \n Geben Sei dafür biite die 0 für ersteres und 1 für zweiteres ein:");
+			System.out.println("Sie haben sich fÃ¼r Tage entschieden. \n MÃ¶chten Sie Tage umrechnen, oder Sekunden/Minuten/Stunden in Tage rechnen? \n Geben Sei dafÃ¼r biite die 0 fÃ¼r ersteres und 1 fÃ¼r zweiteres ein:");
 			int auswahltage = scanner.nextInt();
 			
 			switch(auswahltage) {
@@ -123,7 +123,7 @@ public class methoden {
 	/*
 	 * 
 	 * 
-	 * 						sehr unübersichtlich
+	 * 						sehr unÃ¼bersichtlich
 	 * 
 	 * 
 	 * 
@@ -216,44 +216,3 @@ public class methoden {
 		return ergebnis;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*if(auswahl1 = true) 
-
-System.out.println("Geben Sie bitte eine Sekundenzahl an:");
-
-int sekundeneingabe = scanner.nextInt();
-berechne (sekundeneingabe);
-
-
-else															else-funktion funktioniert nicht
-System.out.println("Geben Sie zuerst die Minuten ein:");
-int minuteneingabe = scanner.nextInt();
-System.out.println("Geben Sie nun die Stunden ein:");
-int stundeneingabe = scanner.nextInt();
-System.out.println("Geben Sie zuletzt die Tage ein:");
-int tageeingabe = scanner.nextInt();
-
-berechnefunktion (minuteneingabe,stundeneingabe,tageeingabe);
-**/
