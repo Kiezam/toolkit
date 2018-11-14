@@ -25,8 +25,8 @@ public class methoden {
 				
 				int sekundeneingabe = scanner.nextInt();
 				berechneSekunden (sekundeneingabe);
-				break;										// bei Eingabe 0 kann erneut 0 oder 1 eingegeben werden
-			case 1:											// bei eingabe 1 ist danach schluss
+				break;										
+			case 1:											
 				System.out.println("Geben Sie zuerst die Tage ein:");
 				int tageeingabe = scanner.nextInt();
 				System.out.println("Geben Sie nun die Stunden ein:");
@@ -139,7 +139,7 @@ public class methoden {
 		int stunden = minuten / 60;
 		int tage = stunden / 24;
 		System.out.println(x + " Sekunden sind: \n");
-		System.out.println(minuten + " Minuten " + stunden + " Stunden" + " und " + tage + " Tage.");
+		System.out.println(minuten + " Minuten, " + stunden + " Stunden, " + tage + " Tage.");
 
 	}
 	
@@ -159,7 +159,7 @@ public class methoden {
 		int stunden = min / 60;
 		int tage = stunden / 24;
 		System.out.println(min + " Minuten sind: \n");
-		System.out.println(sekunden + " Sekunden " + stunden + " Stunden" + " und " + tage + " Tage.");
+		System.out.println(sekunden + " Sekunden, " + stunden + " Stunden, " + tage + " Tage.");
 
 	}
 	
@@ -179,7 +179,7 @@ public class methoden {
 		int sekunden = minuten * 60;		
 		
 		System.out.println(std + " Stunden sind: \n");
-		System.out.println(sekunden + " Sekunden " + minuten + " Minuten" + " und " + tage + " Tage.");
+		System.out.println(sekunden + " Sekunden, " + minuten + " Minuten, " + tage + " Tage.");
 
 	}
 	
@@ -199,7 +199,7 @@ public class methoden {
 		int sekunden = minuten * 60;		
 		
 		System.out.println(d + " Tage sind: \n");
-		System.out.println(sekunden + " Sekunden " + minuten + " Minuten" + " und " + stunden + " Stunden.");
+		System.out.println(sekunden + " Sekunden, " + minuten + " Minuten, " + stunden + " Stunden.");
 
 	}
 	
