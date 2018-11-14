@@ -7,9 +7,7 @@ public class methoden {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Willkommen in meiner Umrechnungsanwendung.\n");
-		System.out.println("Leider ist die Anwendung noch im Aufbau, deswegen geben Sie bitte per Zahl ihre gewünschte Umrechnungsart an. \n");
-		System.out.println("Folgend sehen Sie die Zahlen für die einzelnen Umrechnungen");
+		System.out.println("Zeit umrechnen\n");
 		System.out.println("Mit der 0 rechnen Sie mit Sekunden \nMit der 1 rechnen Sie mit Minuten \nMit der 2 rechnen Sie mit Stunden \nMit der 3 rechen Sie mit Tagen");
 		System.out.println("Geben Sie nun bitte eine Nummer ein:");
 		
