@@ -1,2 +1,2 @@
 # toolkit
-a huge toolkit with a lot of usefull tools
+this will be a library of some usefull tools
